@@ -6,7 +6,7 @@
 galaxy_info:
   author: Pedro Salgado
   description: Ansible role to install virtualenv.
-  company: ansiblebit.org
+  company: silencerco.com
   license: BSD
   min_ansible_version: 2.0
   platforms:
@@ -19,4 +19,4 @@ galaxy_info:
     - development
     - python
 dependencies:
-  - role: ansiblebit.pip
+  - role: Silencerco.pip

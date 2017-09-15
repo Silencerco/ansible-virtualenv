@@ -1,11 +1,11 @@
 # virtualenv
 
-[![License](https://img.shields.io/badge/license-New%20BSD-blue.svg?style=flat)](https://raw.githubusercontent.com/ansiblebit/virtualenv/master/LICENSE)
-[![Build Status](https://travis-ci.org/ansiblebit/virtualenv.svg?branch=master)](https://travis-ci.org/ansiblebit/virtualenv)
+[![License](https://img.shields.io/badge/license-New%20BSD-blue.svg?style=flat)](https://raw.githubusercontent.com/Silencerco/ansible-virtualenv/master/LICENSE)
+[![Build Status](https://travis-ci.org/Silencerco/ansible-virtualenv.svg?branch=master)](https://travis-ci.org/Silencerco/ansible-virtualenv)
 
 [![Platform](http://img.shields.io/badge/platform-ubuntu-dd4814.svg?style=flat)](#)
 
-[![Project Stats](https://www.openhub.net/p/ansiblebit-virtualenv/widgets/project_thin_badge.gif)](https://www.openhub.net/p/ansiblebit-virtualenv/)
+[![Project Stats](https://www.openhub.net/p/Silencerco-ansible-virtualenv/widgets/project_thin_badge.gif)](https://www.openhub.net/p/Silencerco-ansible-virtualenv/)
 
 Ansible role to install [virtualenv](https://virtualenv.pypa.io/).
 
@@ -37,7 +37,7 @@ Ansible role to install [virtualenv](https://virtualenv.pypa.io/).
 
 ## Dependencies
 
-- [ansiblebit.pip](https://github.com/ansiblebit/pip)
+- [Silencerco.pip](https://github.com/Silencerco/ansible-pip)
 
 
 
@@ -52,7 +52,7 @@ is always nice for users too:
         debug: yes
     
       roles:
-         - role: ansiblebit.virtualenv
+         - role: Silencerco.virtualenv
            tags: [ virtualenv ]
 
 
@@ -82,7 +82,7 @@ To run tests for `trusty64`:
 ```
 $ cd tests
 $ bash test_idempotence.sh --box trusty64.vagrant.dev
-# log file will be stores under tests/log
+# log file will be stored under tests/log
 ```
 
 To perform debugging on a specific environment:
